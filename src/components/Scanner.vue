@@ -21,7 +21,6 @@ export default {
     },
 
     async onInit (promise) {
-      console.log(promise)
       try {
         await promise
       } catch (error) {
