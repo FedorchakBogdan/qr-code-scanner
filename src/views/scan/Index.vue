@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     scannerSuccessHandler (data) {
-      this.$router.push({ name: 'products.edit', params: { result: data } })
+      this.$router.push({ name: 'result.index', params: { result: data } })
     }
   }
 }
